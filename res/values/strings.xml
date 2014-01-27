@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RssReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="read_more">Read More</string>
+    <string name="cargando">Cargando</string>
+    <string name="title_activity_detail_news">News</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ver_en_el_navegador">Ver en el navegador</string>
+    <string name="verifique_la_conexion">Verifique la coneccion</string>
+
+</resources>

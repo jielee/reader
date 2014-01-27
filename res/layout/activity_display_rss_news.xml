@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".DisplayRssNewsActivity" >
+
+     <TextView
+         android:id="@+id/reader_error"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:layout_centerInParent="true"
+         android:textSize="20dp"
+         android:textColor="@color/red"
+         android:text="@string/verifique_la_conexion"
+         android:visibility="gone"/>
+     
+     <ListView
+        android:id="@+id/reader_list_news"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"/>
+
+</RelativeLayout>
