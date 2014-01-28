@@ -2,13 +2,10 @@ package com.intelygenz.rssreader.ui;
 
 import java.util.List;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.text.Html;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -18,12 +15,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.intelygenz.rssreader.NewsDetailActivity;
 import com.intelygenz.rssreader.R;
 import com.intelygenz.rssreader.model.News;
-import com.intelygenz.rssreader.tasks.DownloadImageTask;
 import com.intelygenz.rssreader.util.ImageUtil;
 
 public class RSSAdapter extends ArrayAdapter<News> implements OnItemClickListener {
@@ -45,12 +40,12 @@ public class RSSAdapter extends ArrayAdapter<News> implements OnItemClickListene
 
 		if (item != null) {
 
-			TextView itemTitle = (TextView) convertView.findViewById(R.itemRss.title);
+			TextView itemTitle = (TextView) convertView.findViewById(R.id.title);
 
-			RelativeLayout imageContainer = (RelativeLayout) convertView.findViewById(R.itemRss.imageContainer);
-			ProgressBar imageProgressBar = (ProgressBar) convertView.findViewById(R.itemRss.loader);
-			ImageView itemImage = (ImageView) convertView.findViewById(R.itemRss.image);
-			TextView descrition = (TextView) convertView.findViewById(R.itemRss.description);
+			RelativeLayout imageContainer = (RelativeLayout) convertView.findViewById(R.id.imageContainer);
+			ProgressBar imageProgressBar = (ProgressBar) convertView.findViewById(R.id.loader);
+			ImageView itemImage = (ImageView) convertView.findViewById(R.id.image);
+			TextView descrition = (TextView) convertView.findViewById(R.id.description);
 			itemImage.setImageBitmap(null);
 			if (item.getTitle().trim().equals("")) {
 				itemTitle.setVisibility(View.GONE);

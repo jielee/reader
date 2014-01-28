@@ -64,14 +64,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int test=0x7f090008;
         public static final int title=0x7f090002;
     }
-    public static final class itemRss {
-        public static final int description=0x7f0a0004;
-        public static final int image=0x7f0a0002;
-        public static final int imageContainer=0x7f0a0000;
-        public static final int linkButton=0x7f0a0005;
-        public static final int loader=0x7f0a0001;
-        public static final int title=0x7f0a0003;
-    }
     public static final class layout {
         public static final int activity_display_rss_news=0x7f030000;
         public static final int activity_news_detail=0x7f030001;

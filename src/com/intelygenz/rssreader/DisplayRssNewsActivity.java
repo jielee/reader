@@ -27,9 +27,9 @@ public class DisplayRssNewsActivity extends Activity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_display_rss_news);
-		errorText = (TextView)findViewById(R.reader.error);
+		errorText = (TextView)findViewById(R.id.reader_error);
 		ImageUtil.setOnImageLoadedListener(this);
-		listReader = (ListView) findViewById(R.reader.list_news);
+		listReader = (ListView) findViewById(R.id.reader_list_news);
 
 	}
 
