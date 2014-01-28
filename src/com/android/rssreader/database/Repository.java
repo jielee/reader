@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.database;
+package com.android.rssreader.database;
 
 /**
  * 

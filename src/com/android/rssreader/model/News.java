@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.model;
+package com.android.rssreader.model;
 
 import java.io.Serializable;
 

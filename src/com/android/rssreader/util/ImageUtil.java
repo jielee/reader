@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.util;
+package com.android.rssreader.util;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,7 +31,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.widget.ImageView;
 
-import com.intelygenz.rssreader.model.News;
+import com.android.rssreader.model.News;
 /**
  * 
  * @author Jie Lee

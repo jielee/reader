@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.ui;
+package com.android.rssreader.ui;
 
 import java.util.List;
 
@@ -16,10 +16,10 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.intelygenz.rssreader.NewsDetailActivity;
+import com.android.rssreader.NewsDetailActivity;
+import com.android.rssreader.model.News;
+import com.android.rssreader.util.ImageUtil;
 import com.intelygenz.rssreader.R;
-import com.intelygenz.rssreader.model.News;
-import com.intelygenz.rssreader.util.ImageUtil;
 
 public class RSSAdapter extends ArrayAdapter<News> implements OnItemClickListener {
 

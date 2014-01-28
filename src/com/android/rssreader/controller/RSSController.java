@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.controller;
+package com.android.rssreader.controller;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -25,7 +25,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 
-import com.intelygenz.rssreader.model.News;
+import com.android.rssreader.model.News;
 /**
  * 
  * @author Jie Lee

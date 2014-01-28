@@ -1,11 +1,11 @@
-package com.intelygenz.rssreader.database;
+package com.android.rssreader.database;
 
 import java.util.List;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import com.intelygenz.rssreader.model.News;
+import com.android.rssreader.model.News;
 
 
 public class DBNews extends DBTable<News> {

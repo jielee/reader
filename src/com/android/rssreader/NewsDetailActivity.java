@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader;
+package com.android.rssreader;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -14,9 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.intelygenz.rssreader.model.News;
-import com.intelygenz.rssreader.tasks.DownloadImageTask;
-import com.intelygenz.rssreader.util.ImageUtil;
+import com.android.rssreader.model.News;
+import com.android.rssreader.tasks.DownloadImageTask;
+import com.android.rssreader.util.ImageUtil;
+import com.intelygenz.rssreader.R;
 
 public class NewsDetailActivity extends Activity {
 

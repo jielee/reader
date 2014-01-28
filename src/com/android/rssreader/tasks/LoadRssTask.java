@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.tasks;
+package com.android.rssreader.tasks;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import android.app.ProgressDialog;
 import android.net.http.SslCertificate.DName;
 import android.os.AsyncTask;
 
-import com.intelygenz.rssreader.DisplayRssNewsActivity;
+import com.android.rssreader.DisplayRssNewsActivity;
+import com.android.rssreader.controller.RSSController;
+import com.android.rssreader.model.News;
 import com.intelygenz.rssreader.R;
-import com.intelygenz.rssreader.controller.RSSController;
-import com.intelygenz.rssreader.model.News;
 
 public class LoadRssTask extends AsyncTask<Void, Integer, List<News>> {
 

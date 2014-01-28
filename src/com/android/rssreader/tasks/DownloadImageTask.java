@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader.tasks;
+package com.android.rssreader.tasks;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.intelygenz.rssreader.util.ImageUtil;
+import com.android.rssreader.util.ImageUtil;
 
 /**
  * 

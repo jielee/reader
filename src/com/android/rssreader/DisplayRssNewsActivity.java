@@ -1,4 +1,4 @@
-package com.intelygenz.rssreader;
+package com.android.rssreader;
 
 import java.util.List;
 
@@ -9,11 +9,12 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.intelygenz.rssreader.model.News;
-import com.intelygenz.rssreader.tasks.LoadRssTask;
-import com.intelygenz.rssreader.ui.RSSAdapter;
-import com.intelygenz.rssreader.util.ImageUtil;
-import com.intelygenz.rssreader.util.ImageUtil.OnImageLoaderListener;
+import com.android.rssreader.model.News;
+import com.android.rssreader.tasks.LoadRssTask;
+import com.android.rssreader.ui.RSSAdapter;
+import com.android.rssreader.util.ImageUtil;
+import com.android.rssreader.util.ImageUtil.OnImageLoaderListener;
+import com.intelygenz.rssreader.R;
 
 public class DisplayRssNewsActivity extends Activity implements
 		OnImageLoaderListener {

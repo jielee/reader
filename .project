@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 	</projects>
+	
 	<buildSpec>
 		<buildCommand>
 			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
@@ -26,8 +27,10 @@
 			</arguments>
 		</buildCommand>
 	</buildSpec>
+	
 	<natures>
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	
 </projectDescription>
