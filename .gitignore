@@ -3,3 +3,4 @@ project.properties
 bin/*
 proguard-project.txt
 .settings/*
+.classpath
