@@ -110,6 +110,7 @@ public class ImageUtil implements Runnable {
 	public static Bitmap getImageFromCache(String cacheName) {
 		String cacheFilePath = ImageUtil.context.getFilesDir()
 				+ "/cache/thumbs/" + cacheName;
+		@SuppressWarnings("deprecation")
 		BitmapDrawable drawable = new BitmapDrawable(cacheFilePath);
 		return drawable.getBitmap();
 	}

@@ -7,6 +7,6 @@ package com.android.rssreader.database;
  */
 public class Repository {
 	
-	private static final String DATABASE_NAME = "RSSReader";
+	//private static final String DATABASE_NAME = "RSSReader";
 
 }

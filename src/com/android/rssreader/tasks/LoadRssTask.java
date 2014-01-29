@@ -2,9 +2,7 @@ package com.android.rssreader.tasks;
 
 import java.util.List;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
-import android.net.http.SslCertificate.DName;
 import android.os.AsyncTask;
 
 import com.android.rssreader.DisplayRssNewsActivity;

@@ -47,8 +47,6 @@ public class NewsDetailActivity extends Activity {
 			if(news.getImageUrl()==null || news.getImageUrl().isEmpty()){
 				findViewById(R.id.imageContainer).setVisibility(View.GONE);
 			}else{
-				String urlSplited[] = news.getImageUrl().split("\\/");
-				String cacheName = urlSplited[urlSplited.length - 1];
 				new DownloadImageTask(news.getImageUrl(), image, imageProgressBar).execute();
 			}
 			description.setText(Html.fromHtml(news.getContent()));

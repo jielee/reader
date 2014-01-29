@@ -5,8 +5,6 @@ import java.lang.ref.WeakReference;
 
 import org.apache.http.client.ClientProtocolException;
 
-import android.app.Activity;
-import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.view.View;

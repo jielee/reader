@@ -4,3 +4,4 @@ bin/*
 proguard-project.txt
 .settings/*
 .classpath
+target/*
